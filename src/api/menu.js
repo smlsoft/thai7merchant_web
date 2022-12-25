@@ -6,47 +6,82 @@ export const menus = [
     to: "/",
     children: [],
   },
-  {
-    title: "ข้อมูลหลัก",
-    icon: "pi pi-th-large",
-    to: "",
-    name: "master",
-    children: [
-      {
-        title: "ข้อมูลสินค้า",
-        icon: "pi pi-microsoft",
-        to: "/product/list",
-        name: "product_list",
-      },
-      // {
-      //   title: "จัดการบาร์โค้ดสินค้า",
-      //   icon: "pi pi-microsoft",
-      //   to: "/barcode/create",
-      //   name: "barcode_create",
-      // },
-      {
-        title: "กำหนดหน่วยนับสินค้า",
-        icon: "pi pi-microsoft",
-        to: "/unit/list",
-        name: "unit_list",
-      },
-      // {
-      //   title: "กำหนด คลัง/พื้นที่เก็บ",
-      //   icon: "pi pi-microsoft",
-      //   to: "/warehouse/list",
-      //   name: "warehouse_list",
-      // },
-
-
-    ],
-  },
   // {
-  //   title: "ข้อมูลหมวดหมู่",
-  //   icon: "pi pi-list",
-  //   to: "/category/list",
-  //   name: "category_list",
-  //   children: [],
+  //   title: "ข้อมูลหลัก",
+  //   icon: "pi pi-th-large",
+  //   to: "",
+  //   name: "master",
+  //   children: [
+  //     {
+  //       title: "ข้อมูลสินค้า",
+  //       icon: "pi pi-microsoft",
+  //       to: "/product/list",
+  //       name: "product_list",
+  //     },
+  //     // {
+  //     //   title: "จัดการบาร์โค้ดสินค้า",
+  //     //   icon: "pi pi-microsoft",
+  //     //   to: "/barcode/create",
+  //     //   name: "barcode_create",
+  //     // },
+  //     {
+  //       title: "กำหนดหน่วยนับสินค้า",
+  //       icon: "pi pi-microsoft",
+  //       to: "/unit/list",
+  //       name: "unit_list",
+  //     },
+  //     // {
+  //     //   title: "กำหนด คลัง/พื้นที่เก็บ",
+  //     //   icon: "pi pi-microsoft",
+  //     //   to: "/warehouse/list",
+  //     //   name: "warehouse_list",
+  //     // },
+
+
+  //   ],
   // },
+  {
+    title: "ข้อมูลสินค้า",
+    icon: "pi pi-microsoft",
+    to: "/product/list",
+    name: "product_list",
+    children: [],
+  },
+  {
+    title: "กำหนดหน่วยนับสินค้า",
+    icon: "pi pi-microsoft",
+    to: "/unit/list",
+    name: "unit_list",
+    children: [],
+  },
+  {
+    title: "ข้อมูลหมวดหมู่",
+    icon: "pi pi-list",
+    to: "/category/list",
+    name: "category_list",
+    children: [],
+  },
+  {
+    title: "สี",
+    icon: "pi pi-list",
+    to: "/category/list",
+    name: "category_list",
+    children: [],
+  },
+  {
+    title: "สินค้า",
+    icon: "pi pi-list",
+    to: "/category/list",
+    name: "category_list",
+    children: [],
+  },
+  {
+    title: "Barcode ",
+    icon: "pi pi-list",
+    to: "/category/list",
+    name: "category_list",
+    children: [],
+  },
   // {
   //   title: "ข้อมูลตัวเลือก",
   //   icon: "pi pi-list",
